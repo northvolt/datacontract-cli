@@ -84,7 +84,7 @@ def lint(
     ] = "datacontract.yaml",
     schema: Annotated[
         str, typer.Option(help="The location (url or path) of the Data Contract Specification JSON Schema")
-    ] = "https://datacontract.com/datacontract.schema.json",
+    ] = "https://raw.githubusercontent.com/northvolt/datacontract-specification/main/datacontract.schema.json",
 ):
     """
     Validate that the datacontract.yaml is correctly formatted.
@@ -100,7 +100,7 @@ def test(
     ] = "datacontract.yaml",
     schema: Annotated[
         str, typer.Option(help="The location (url or path) of the Data Contract Specification JSON Schema")
-    ] = "https://datacontract.com/datacontract.schema.json",
+    ] = "https://raw.githubusercontent.com/northvolt/datacontract-specification/main/datacontract.schema.json",
     server: Annotated[
         str,
         typer.Option(

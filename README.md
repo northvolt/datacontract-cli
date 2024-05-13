@@ -218,7 +218,7 @@ Commands
 ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
 ╭─ Options ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
 │ --schema        TEXT  The location (url or path) of the Data Contract Specification JSON Schema                                 │
-│                       [default: https://datacontract.com/datacontract.schema.json]                                              │
+│                       [default: https://raw.githubusercontent.com/northvolt/datacontract-specification/main/datacontract.schema.json]                                              │
 │ --help                Show this message and exit.                                                                               │
 ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
 ```
@@ -237,7 +237,7 @@ Commands
 │ --schema                                                       TEXT  The location (url or path) of the Data Contract            │
 │                                                                      Specification JSON Schema                                  │
 │                                                                      [default:                                                  │
-│                                                                      https://datacontract.com/datacontract.schema.json]         │
+│                                                                      https://raw.githubusercontent.com/northvolt/datacontract-specification/main/datacontract.schema.json]         │
 │ --server                                                       TEXT  The server configuration to run the schema and quality     │
 │                                                                      tests. Use the key of the server object in the data        │
 │                                                                      contract yaml file to refer to a server, e.g.,             │

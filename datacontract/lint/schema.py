@@ -8,7 +8,7 @@ from datacontract.model.exceptions import DataContractException
 
 def fetch_schema(location: str = None):
     if location is None:
-        location = "https://datacontract.com/datacontract.schema.json"
+        location = "https://raw.githubusercontent.com/northvolt/datacontract-specification/main/datacontract.schema.json"
 
     if location.startswith("http://") or location.startswith("https://"):
         response = requests.get(location)
